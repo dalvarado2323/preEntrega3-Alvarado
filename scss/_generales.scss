@@ -1,0 +1,61 @@
+/*caracacteristicas GENERALES*/
+
+
+.colorfondo {
+	background-color: $background-color_1;
+}
+.btnpropio {
+	background-color: $background-color_1;
+}
+.btnhambur {
+	background-color: $background-color_2;
+}
+
+.contenedordeterapeutas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+.contenedorregistro {
+	margin-block-end: 200px;
+	display: flex;
+	align-items: flex-end;
+}
+.contendorlistaordenada {
+	display: flex;
+	justify-content: center;
+}
+.contenedorvideopinstructivo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.contenedorpatronesnaturales {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+
+
+
+
+.b-example-divider {
+	height: 1rem;
+	background-color: $background-color_3;
+	border: solid rgba(0, 0, 0, .15);
+	border-width: 1px 0;
+	box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+.b-example-vr {
+	flex-shrink: 0;
+	width: 1.5rem;
+	height: 100vh;
+}
+.bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+}
+

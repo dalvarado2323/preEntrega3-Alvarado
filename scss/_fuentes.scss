@@ -1,0 +1,22 @@
+/*FUENTES*/
+
+@mixin cuerpo {
+    font-family: $font-family_1;
+	color: $color_2;
+}
+
+
+header {
+	font-family: $font-family_1;
+	font-size: 150%;
+	color: $color_1;
+}
+
+body {
+
+    @include cuerpo
+  
+}
+
+
+
